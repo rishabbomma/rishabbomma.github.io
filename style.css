@@ -62,28 +62,35 @@ body {
 }
 .content a:hover { text-decoration: underline; }
 
-
+/* -------------------------------------- */
+/* NEW STYLES FOR MEDIA PAGE LAYOUT (Vertical Division) */
+/* -------------------------------------- */
 
 .media-grid {
   display: grid;
+  /* Set to a single column (1fr) for vertical division on all screens */
   grid-template-columns: 1fr; 
-  gap: 40px; 
+  gap: 40px; /* Space between sections (vertical gap) */
   margin-top: 2rem;
 }
 
 .media-feed {
-  order: 2; 
+  /* Style for the main feed area */
+  order: 2; /* Ensure the feed is below Current Readings */
 }
 
 .current-readings {
-  padding: 1rem;
-  border-radius: 8px;
-  background-color: #2c2c2c; 
+/* HIGHLIGHTED RECTANGLE WITH SMOOTH CORNERS */
+  padding: 2rem; /* Increased padding for better separation */
+  border-radius: 12px; /* Smoother, larger radius */
+  background-color: #2c2c2c; /* Darker background color */
+  border: 1px solid #4a007c; /* Subtle, contrasting border color */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* Add some depth */
+  
   position: static; 
   top: auto; 
   max-height: none;
-  order: 1; 
-}
+  order: 1; /* Place the 'Currently Reading' section above the Feed */}
 
 .feed-entry {
   border-left: 3px solid #6200ee;
@@ -94,7 +101,7 @@ body {
 .feed-entry time {
   display: block;
   font-size: 0.85rem;
-  color: #90caf9;
+  color: #90caf9; /* Using a theme-appropriate color for feed time stamps */
   margin-bottom: 5px;
   font-weight: normal;
 }
@@ -142,7 +149,9 @@ body {
 }
 
 
-
+/* -------------------------------------- */
+/* MEDIA QUERIES (Responsiveness) */
+/* -------------------------------------- */
 
 @media (max-width: 1024px) {
   .current-readings {
@@ -171,6 +180,7 @@ body {
   }
 }
 
+/* --- Preserved Original Styles --- */
 #gotRhythm890  { 
   float: left;    
   margin: 0 15px 0 0;
@@ -183,3 +193,4 @@ mark {
   background-color: #121212 ;
   color: #541d92;
 }
+/* --- End Preserved Original Styles --- */
