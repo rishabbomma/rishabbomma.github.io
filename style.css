@@ -62,35 +62,37 @@ body {
 }
 .content a:hover { text-decoration: underline; }
 
-/* -------------------------------------- */
-/* NEW STYLES FOR MEDIA PAGE LAYOUT (Vertical Division) */
-/* -------------------------------------- */
 
 .media-grid {
   display: grid;
-  /* Set to a single column (1fr) for vertical division on all screens */
   grid-template-columns: 1fr; 
-  gap: 40px; /* Space between sections (vertical gap) */
+  gap: 40px; 
   margin-top: 2rem;
 }
 
 .media-feed {
-  /* Style for the main feed area */
-  order: 2; /* Ensure the feed is below Current Readings */
+  order: 2; 
 }
 
 .current-readings {
-/* HIGHLIGHTED RECTANGLE WITH SMOOTH CORNERS */
-  padding: 2rem; /* Increased padding for better separation */
-  border-radius: 12px; /* Smoother, larger radius */
-  background-color: #2c2c2c; /* Darker background color */
-  border: 1px solid #4a007c; /* Subtle, contrasting border color */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* Add some depth */
+  padding: 2rem; 
+  border-radius: 10px; 
+  background-color: #2c2c2c; 
+  border: 1px solid #4a007c; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
   
   position: static; 
   top: auto; 
   max-height: none;
-  order: 1; /* Place the 'Currently Reading' section above the Feed */}
+  order: 1; 
+
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 20px; 
+
+}
+
+  
 
 .feed-entry {
   border-left: 3px solid #6200ee;
@@ -101,7 +103,7 @@ body {
 .feed-entry time {
   display: block;
   font-size: 0.85rem;
-  color: #90caf9; /* Using a theme-appropriate color for feed time stamps */
+  color: #90caf9; 
   margin-bottom: 5px;
   font-weight: normal;
 }
@@ -129,6 +131,9 @@ body {
   border-bottom: 1px solid #444444;
   padding-bottom: 15px;
   margin-bottom: 15px;
+
+  flex: 1 1 calc(50% - 10px); 
+  min-width: 250px;
 }
 
 .reading-item:last-child {
@@ -149,17 +154,15 @@ body {
 }
 
 
-/* -------------------------------------- */
-/* MEDIA QUERIES (Responsiveness) */
-/* -------------------------------------- */
 
-@media (max-width: 1024px) {
+
+@media (max-width: 512px) {
   .current-readings {
     margin-bottom: 2rem;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .layout { flex-direction: column; }
 
   .sidebar {
@@ -180,7 +183,6 @@ body {
   }
 }
 
-/* --- Preserved Original Styles --- */
 #gotRhythm890  { 
   float: left;    
   margin: 0 15px 0 0;
@@ -193,4 +195,3 @@ mark {
   background-color: #121212 ;
   color: #541d92;
 }
-/* --- End Preserved Original Styles --- */
