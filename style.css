@@ -291,8 +291,11 @@ body {
   margin: 0 15px 0 0;
 }
 time {
-  color: rgb(30, 30, 195); 
-  font-weight: bold; 
+  display: block;
+  font-size: 1rem;
+  color: #90caf9; 
+  margin-bottom: 5px;
+  font-weight: normal;
 }
 mark {
   background-color: #121212 ;
