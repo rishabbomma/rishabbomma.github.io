@@ -153,6 +153,65 @@ body {
   margin: 5px 0 0 0;
 }
 
+.knowledge-card {
+    background-color: #1e1e1e; /* Using the sidebar background color for a subtle contrast */
+    border: 1px solid #333333;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 2.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.knowledge-card:hover {
+    border-color: #6200ee; /* Accent border on hover */
+    box-shadow: 0 6px 15px rgba(98, 0, 238, 0.15);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #90caf9; /* Light blue accent for titles */
+    border-bottom: 1px solid #444444;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.link-grid {
+    display: grid;
+    /* Use responsive columns: 3 on desktop, 2 on tablet, 1 on mobile */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    gap: 0.5rem 1.5rem; /* Compact vertical gap, wider horizontal gap */
+    padding-top: 5px;
+}
+
+.link-grid a {
+    color: #e0e0e0; /* Default link color in the list */
+    font-size: 0.95rem;
+    text-decoration: none;
+    padding: 3px 0; /* Very compact vertical spacing */
+    transition: color 0.2s ease;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.05); /* Very subtle divider */
+}
+
+.link-grid a:hover {
+    color: #bb86fc; /* Primary accent on hover */
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.03);
+    padding-left: 5px;
+    border-radius: 3px;
+}
+
+.section-description {
+    color: #aaaaaa;
+    margin-top: -10px;
+    margin-bottom: 3rem;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+
+
 
 
 
