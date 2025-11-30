@@ -1,9 +1,28 @@
 body {
   margin: 0;
+
+
   font-family: 'Arial', sans-serif;
   background-color: #121212;
   color: #e0e0e0;
+
+  max-width: 900px;  
+  margin-left: auto; 
+  margin-right: auto;
+  padding: 20px;
 }
+
+html {
+  font-size: 18px;  
+}
+
+body.fullWidth {
+  max-width: none;  
+  margin-left: 0;
+  margin-right: 0;
+  padding: 20px;     
+}
+
 
 
 .layout {
@@ -92,12 +111,23 @@ body {
 
 }
 
+.teaser  {
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #aaaaaa;
+  margin-bottom: 10px;
+
+}
+
   
 
 .feed-entry {
   border-left: 3px solid #6200ee;
   padding-left: 15px;
   margin-bottom: 30px;
+  margin-right: auto;
+  max-width: 800px; 
+
 }
 
 .feed-entry time {
@@ -119,12 +149,14 @@ body {
   font-size: 0.9rem;
   color: #aaaaaa;
   margin-bottom: 10px;
+
 }
 
 .feed-entry .thoughts h4 {
   font-size: 1rem;
   color: #bb86fc;
   margin-bottom: 5px;
+  
 }
 
 .reading-item {
