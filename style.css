@@ -2,7 +2,8 @@ body {
   margin: 0;
 
 
-  font-family: 'Arial', sans-serif;
+  font-family:  "Arial", Times, serif;
+  line-height: 1.7; 
   background-color: #121212;
   color: #e0e0e0;
 
@@ -38,15 +39,16 @@ body.fullWidth {
   top: 0;
   left: 0;
   height: 100vh;
-  background-color: #1e1e1e;
+  background-color: #121212c7;
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 0.5rem;
+
 }
 
 .sidebar .title {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
   text-decoration: none;
   color: #ffffff;
@@ -54,11 +56,12 @@ body.fullWidth {
 }
 
 .sidebar .nav-links a {
+   
   display: block;
   margin-bottom: 0.5rem;
   color: #90caf9;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .sidebar .nav-links a:hover {
@@ -76,7 +79,7 @@ body.fullWidth {
 .content section { margin-bottom: 3rem; }
 
 .content a {
-  color: #bb86fc;
+  color: #90caf9;
   text-decoration: none;
 }
 .content a:hover { text-decoration: underline; }
@@ -307,7 +310,7 @@ body.fullWidth {
 }
 
 .dump-list a {
-    color: #bb86fc;
+    color: #90caf9;
     text-decoration: none;
     font-size: 1rem;
     transition: color 0.2s ease, padding-left 0.2s ease;
