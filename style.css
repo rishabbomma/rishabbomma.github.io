@@ -114,6 +114,7 @@ body.fullWidth {
   border: 1px solid var(--vertical-bar-color); 
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
   
+  
   position: static; 
   top: auto; 
   max-height: none;
@@ -134,7 +135,7 @@ body.fullWidth {
 }
 
 .thoughts {
-    border-bottom: 7px solid var(--divider-line-color);
+    border-bottom: 4px solid var(--divider-line-color);
 }
 
   
@@ -159,7 +160,7 @@ body.fullWidth {
 .reading-item {
   padding-bottom: 15px;
   margin-bottom: 15px;
-
+  border-bottom: 1px solid var(--divider-line-color);
   flex: 1 1 calc(50% - 10px); 
   min-width: 250px;
 }
