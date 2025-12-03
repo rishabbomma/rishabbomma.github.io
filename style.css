@@ -13,7 +13,11 @@
 
 body {
   margin: 0;
-  font-family:  "Arial", Times, serif;
+  font-family: "Computer Modern", sans-serif;
+
+  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+
+
   line-height: 1.7; 
   background-color: var(--background-color);
   color: var(--text-color);

@@ -68,43 +68,68 @@
 
           </aside>
 
+
+
+
+
+
+
+
+
             <div class="media-feed">
+
+
+            <div class = "thoughts">
+            <h2> <a href="https://statmodeling.stat.columbia.edu/2025/11/30/sermet-pekins-open-source-project-that-discovers-blogs-through-recursive-network-exploration/"> Open Source Project that Discovers Blogs! </a></h2>
+            <time>Dec 2, 2025</time>
+            <div class="feed-entry">
+              <p class="source">Source: <a href = "https://statmodeling.stat.columbia.edu/" > Statistical Modeling, Causal Inference, and Social Science </a></p>
+              Sermet Pekin writes:
+
+              I built an open-source project that discovers blogs through recursive network exploration–basically PageRank for the blogosphere. Your blogroll was the main seed source.
+              <br><br>
+              It recursively discovers new blogs by following citations and parsing RSS feeds, mapping out how blogs link to each other. Starting from a curated seed list (I used your blogroll recommendations), it can scale to hundreds or thousands of blogs depending on exploration depth. It supports different exploration strategies—breadth-first to explore widely across communities, depth-first to dive deep into niches, or mixed approaches.
+              <br><br>
+              I thought you might find it interesting:
+              – Helps surface quality blogs without relying on social media algorithms
+              – Your blogroll made excellent seed data—the blogs were well-curated and interconnected
+
+              Fun!
+            </div>
+
+            Link to the actual <a href = "https://sermetpekin.github.io/rss-discovery-engine/"> project </a>. 
+           </div>
             <div class="thoughts">
             <h2> <a href="https://laweconcenter.org/resources/free-riding-in-mobile-ecosystems/"> Free Riding in Mobile Ecosystems </a></h2>
             <time>Dec 2, 2025</time>
 
            
             <p> This article is from the International Center for Law & Economics and
-               I don't really pay attention to antitrust stuff, but this article seemed pretty interested. 
+              I don't really pay attention to antitrust stuff, but this article seemed pretty interesting. 
               The subject of the article is the European Union's Digital Markets Act (DMA, 2023), 
-              which forces "gatekeepers"-think of Apple and Google which don't allow for apps to be installed anywhere else except 
-              their own app stores-to allow for alternative in-app payment processing and alternative app stores. 
+              which forces "gatekeepers"-think Apple and Google-to allow for alternative in-app payment processing and app stores on their mobile operating systems.
+              Here's an  <a href = "https://techcrunch.com/2025/03/13/move-over-apple-meet-the-alternative-app-stores-coming-to-the-eu/">  article </a> with some examples of alternative app stores that are allowed in the EU 
             <br><br>
           
           </p>
             
             <div class="feed-entry">
               <p class="source">Source: Brian Albrecht (Chief Economist) & Dirk Auer (Director of Competition Policy) </p>
-              The EU’s Digital Markets Act (DMA) and similar regulations around the world require designated “gatekeepers” to open 
-              their mobile operating systems to third-party app stores and sideloading. 
-              They also typically include requirements that developers be allowed to use alternative in-app payment systems 
-              and to “steer” users toward purchases outside the app store.
-             
-               
+                The EU’s Digital Markets Act (DMA) and similar regulations around the world require designated 
+                “gatekeepers” to open their mobile operating systems to third-party app stores and sideloading.
+                They also typically include requirements that developers be allowed to 
+                use alternative in-app payment systems and to “steer” users toward purchases outside the app store.             
             </div>
 
-            The thesis of the article is that the DMA assumes that commissions that any platform (think Apple or Google) 
-            aren't necessarily fair for deveolpers if they don't exactly have a choice of app store to platform their app or in-app payment processing. 
-            For the latter, they might be able to create or find a cheaper alternative to Apple/Google's in-house payment processing for in-app purchases.
-            Additionally, Albrecht and Auer claim that it would be hard to induce greater choice for alternative app stores AND payment processing systems at the same time. 
-            
+            The thesis of the article is that one can't maximize both competition among third-party app stores and payment processors. 
+            Since all of these app stores would have to draw their revenue from somewhere and would be forced to follow Apple's example of charging a commission on in-app sales and banning apps that didn't comply.
+            A good example of this is Apple banning <a href = "https://www.reddit.com/r/Games/comments/1knw4jq/fortnite_removed_from_app_store_entirely_after/" > Fortnite </a> for bypassing their 30% commission on in-app purchases.          
             <br><br> 
-            
-            Regardless of who's in the market, there's a pervasive free riding problem since any platform that would spawn due to the DMA would have to charge 
-            commissions for each deveolper wanting to use their infrastructure, audience, and anti-fraud software/OS.
-            However, since the DMA requires that these app stores allow deveolpers to "steer" consumers off the platform e.g using Stripe as a payment processor, 
-            then this new hypothetical app store would have the same issue of other free riding.
-            
+            Now, if one forces app stores to allow developers to contract alternative payment processors (think PayPal or Venmo) then 
+            developers would be able to keep more of their revenue and free ride off of the investments of all of those alternative app stores. 
+            Additionally, these alternative app stores would themselves be relying on OS-level infrastructure (discovery, security, etc.) 
+            and be free riding off of Apple's investments. This would lead to underinvestment in what makes the Apple app store work 
+            reasonably well in the first place e.g fraud protection, curation, advertising, etc.                  
             <br><br>
 
             <div class="feed-entry">
@@ -115,22 +140,9 @@
 
             </div>
 
-            To finish this write-up, here's an <a href = "https://techcrunch.com/2025/03/13/move-over-apple-meet-the-alternative-app-stores-coming-to-the-eu/">  article </a> with some examples of alternative app stores.
-            The most well-known is probably Epic Games that was <a href = "https://www.reddit.com/r/Games/comments/1knw4jq/fortnite_removed_from_app_store_entirely_after/" > removed from the App store </a> 
-            for bypassing Apple's payment processing system that charges a 30% commission. 
-            <br> <br> 
-            Personally, I feel a bit unconvinced in that I wouldn't feel confident arguing with others about the efficacy of this sort of antitrust policy.
-            I'm sure that the status quo involved a lot of good exchanges and Apple/Google most definetely provided value to deveolpers and consumers. 
-            But I can't think of any policies that would manage the trade-offs discussed above in a strictly better way than the status quo.
-            The Digital Markets Act might be more sophisticated than the article implies, but I'm not too sure what the actual effect of it. 
-            
-            <br> <br> 
+            Or, it would lead to Apple increasing costs for developers! 
 
-            To emphasize that last point, according to the article, Apple is also introducing a new fee to account for the free riding problem the article masterfully points out. 
-
-            <br>
-
-            <div class="feed-entry">
+              <div class="feed-entry">
               <p class="source">Source: <a href = "https://developer.apple.com/support/core-technology-fee/"> Apple </a> </p>
               Developers operating under the Alternative Terms Addendum for Apps in the EU have the option to
                distribute their iOS and iPadOS apps 
@@ -146,6 +158,12 @@
                 Fee for each first annual install over one million. 
                 Developers pay a CTF of €0.50 for each first annual install over one million in the past 12 months.
             </div>
+            I feel convinced that the DMA doesn't make too much sense, since it
+            really just makes it harder for companies to provide/maintain the infrastructure needed for app developers to flourish. 
+
+
+            
+            
             </div>
 
              
@@ -178,7 +196,7 @@
             </div>
             If I'm being honest, this doesn't offer too much insight into the Great war as it is by itself. 
             The excerpt is just a good example of game theory and its language being used to convey one plausible explanation for conflict. 
-            Myerson does of course mention this is a bit later. 
+            Myerson does of course mention this a bit later. 
 
             <div class="feed-entry">
               <p class="source">Source: Journal of Economic Literature, Roger Myerson </p>
@@ -235,7 +253,7 @@
                <h2> <a href="https://www.nytimes.com/athletic/6840475/2025/11/28/california-bears-football-berkeley-politics"> The University of California knows its stereotypes. How does college football fit in?</a></h2>
             <time>November 28, 2025</time>
             <p> This article was pretty interesting. I don't follow football (certainly not college football), but how our (Cal's) team changes  
-              <a href = "https://www.reddit.com/r/berkeley/comments/1p537tn/cal_fires_coach_justin_wilcox_after_lopsided_loss/"> after the devestating loss at the big game </a> is sure to be interesting.
+              <a href = "https://www.reddit.com/r/berkeley/comments/1p537tn/cal_fires_coach_justin_wilcox_after_lopsided_loss/"> after the devastating loss at the big game </a> is sure to be interesting.
               Putting that aside, this quote is pretty funny without sufficient context. </p>
             
             <div class="feed-entry">
@@ -248,7 +266,7 @@
             </div>
           </div>
             
-            <div class = "thoughts">
+          <div class = "thoughts">
             <h2> <a href="https://www.apple.com/newsroom/2025/11/mapping-the-future-with-3d-printed-titanium-apple-watch-cases/"> Mapping the future with 3D-printed titanium Apple Watch cases </a></h2>
             <time>November 25, 2025</time>
             <div class="feed-entry">
