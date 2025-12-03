@@ -1,6 +1,6 @@
 :root { 
   --vertical-bar-color: #6200ee;  
-  --divider-line-color: #444444;
+  --divider-line-color: #6a8291df;
   --background-color: #121212; 
   --text-color: #e0e0e0;       
   --link-color: #90caf9;      
@@ -133,10 +133,14 @@ body.fullWidth {
 
 }
 
+.thoughts {
+    border-bottom: 7px solid var(--divider-line-color);
+}
+
   
 
 .feed-entry {
-  border-left: 3px solid var(--vertical-bar-color);
+  border-left: 7px solid var(--vertical-bar-color);
   padding-left: 15px;
   margin-bottom: 30px;
   margin-right: auto;
@@ -153,7 +157,6 @@ body.fullWidth {
 }
 
 .reading-item {
-  border-bottom: 1px solid var(--divider-line-color);
   padding-bottom: 15px;
   margin-bottom: 15px;
 
@@ -169,7 +172,7 @@ body.fullWidth {
 
 .reading-item h4 {
   margin: 0 0 5px 0;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   color: var(--text-color);
 }
 
