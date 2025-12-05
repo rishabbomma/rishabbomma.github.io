@@ -153,7 +153,14 @@ body.fullWidth {
 
 }
 
-.feed-entry .source, .reading-item .detail {
+.source {
+  font-style: italic;
+  font-size: 0.9rem;
+  color: var(--teaser-color);
+  margin-bottom: 10px;
+}
+
+.feed-entry .reading-item .detail {
   font-style: italic;
   font-size: 0.9rem;
   color: var(--teaser-color);
