@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Bomma | Media</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="shortcut icon" type="image/png" href="/pics/web_icon.png">
-   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <link rel="shortcut icon" type="image/png" href="/pics/web_icon.png" />
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
-<body class = "fullWidth">
 
-  
+<body class="fullWidth">
   <div class="layout">
     <nav class="sidebar">
       <a href="index.html" class="title">Bomma</a>
@@ -18,360 +18,636 @@
         <a href="media.html">Media</a>
         <a href="random_shit.html">Random Shit</a>
         <a href="musings.html">Musings</a>
-
       </div>
     </nav>
 
     <main class="content">
       <section>
         <h1>Media</h1>
-        <p>Here I keep a record of books, articles, or really anything I've consumed that I find very interesting. 
-          The highlighted box contains stuff I'm currently working through. Here's a <a href="dump.html">link dump</a> too of organizations I go to for information.  </p>
+        <p>
+          Here I keep a record of books, articles, or really anything I've consumed that I find very interesting. The
+          highlighted box contains stuff I'm currently working through. Here's a <a href="dump.html">link dump</a> too
+          of organizations I go to for information.
+        </p>
 
-        
-        
-          <div class="media-grid">
-          
+        <div class="media-grid">
           <aside class="current-readings">
-            
-            
             <div class="reading-item">
               <h4>The Party's Interests Come First: The Life of Xi Zhongxun, Father of Xi Jinping</h4>
-              <p class="source">Source: <a href="https://www.sup.org/books/partys-interests-come-first"> Stanford University Press</a></p>
+              <p class="source">
+                Source: <a href="https://www.sup.org/books/partys-interests-come-first"> Stanford University Press</a>
+              </p>
               <p class="detail">Author: Joseph Torrigan</p>
               <p class="note"></p>
             </div>
 
             <div class="reading-item">
               <h4>How to Know a Person: The Art of Seeing Others Deeply and Being Deeply Seen</h4>
-              <p class="source">Source: <a href="https://www.penguinrandomhouse.com/books/652822/how-to-know-a-person-by-david-brooks/">Random Penguin House</a></p>
+              <p class="source">
+                Source:
+                <a href="https://www.penguinrandomhouse.com/books/652822/how-to-know-a-person-by-david-brooks/">Random
+                  Penguin House</a>
+              </p>
               <p class="detail">Author: David Brooks</p>
-              <p> Enjoying the book so far. I really enjoyed the third chapter, so here's an insightful excerpt from it.  </p>
-              <div class = feed-entry>
-                <p class="note"> 
-                  Dr. Ludwig Guttmann was a German Jew who escaped Nazi Germany in 1939 and found a job 
-                  in a hospital in Britain that served paraplegics, mostly men injured in the war. 
-                  When he first started working there, 
-                  the hospital heavily sedated these men and kept them confined to their beds. Guttmann, 
-                  however, didn’t see the patients the way the other doctors saw them.
-                  He cut back on the sedatives, forced them out of bed, 
-                  and started throwing balls at them and doing other things to get them active. 
-                  <br><br>
+              <p>
+                Enjoying the book so far. I really enjoyed the third chapter, so here's an insightful excerpt from it.
+              </p>
+              <div class="quote-block">
+                <p class="note">
+                  Dr. Ludwig Guttmann was a German Jew who escaped Nazi Germany in 1939 and found a job in a hospital
+                  in Britain that served paraplegics, mostly men injured in the war. When he first started working
+                  there, the hospital heavily sedated these men and kept them confined to their beds. Guttmann,
+                  however, didn’t see the patients the way the other doctors saw them. He cut back on the sedatives,
+                  forced them out of bed, and started throwing balls at them and doing other things to get them
+                  active.
+                  <br /><br />
                   As a result, he was summoned to a tribunal of his peers, where his methods were challenged.
+                  <br /><br />
+                  “These are moribund cripples,” one doctor asserted.
+                  <br /><br />
+                  “They are the best of men,” Guttmann replied.
+                </p>
+              </div>
+            </div>
+          </aside>
+
+          <div class="media-feed">
+
+            <div class="thoughts">
+              <h2>
+                <a href="https://www.nytimes.com/2025/12/02/opinion/self-driving-cars.html"> The Data on Self-Driving
+                  Cars Is Clear. We Have to Change Course.</a>
+                <time> Dec 6, 2025</time>
+              </h2>
+              <p> The link is a NYT article that has a pretty good exposition on Waymo’s data. I’m just going to copy
+                and paste some graphs <a href="https://waymo.com/safety/impact/"> from Waymo's original article</a> and
+                call it a day.
+
+                <br><br>
+
+                The most jarring bar is the one for differences in crashes at intersections.
+
+                <img src="./pics/waymo_airbag_data.png" alt="" width="700" height="300" />
+
+                <br><br>
+
+                For some reason, the article only includes the average across all cities, but San Francisco is weirdly
+                unsafe relative to even LA. I wonder why that’s the case.
+
+                <br>
+
+                <img src="./pics/all_city_waymo_crash.png" alt="" width="700" height="300" />
+              </p>
+            </div>
+
+            <div class="thoughts">
+              <h2>
+                <a
+                  href="https://liorpachter.wordpress.com/2025/11/08/review-of-cold-spring-harbor-laboratorys-obituary-for-dr-james-watson/">
+                  Lior Pachter Dunks on Watson </a>
+                <time> Dec 6, 2025 </time>
+              </h2>
+
+              <p>The <a href="https://en.wikipedia.org/wiki/Cold_Spring_Harbor_Laboratory"> Cold Spring Harbor
+                  Laboratory
+                </a> created an obituary for <a href="https://en.wikipedia.org/wiki/James_Watson"> James Watson</a> who
+                died a month ago (November
+                5th). I’ve never heard of CSHL before, but apparently they’re a big deal.
+
+                Anyway, Pachter just dunks on Watson with his comments (in red) and here are some excerpts of his
+                commentary.</p>
+
+              <div class="quote-block">
+                <p> Watson, along with Crick and Wilkins were awarded the 1962 Nobel Prize in Physiology or Medicine.
+                  Watson also received the Presidential Medal of Freedom from President Gerald Ford and the National
+                  Medal of Science from President Bill Clinton, among many other awards and prizes.</p>
+                <p style="color: red"> It is true that Watson received these awards. Coincidentally, William Shockley
+                  was also awarded the Nobel Prize around the same time as Watson (physics, 1956) and he promoted racist
+                  eugenics, arguing that people of African Ancestry posed a “dysgenic risk”, as well as advocating for
+                  sterilization. He used his Nobel prestige to advance his malicious and scientifically bankrupt ideas
+                  (source: Scott Rosenberg, 2017)</p>
+
+              </div>
+
+              <p> He portrays Watson as not as intelligent as his awards make him out to be, a dick, and a race realist.
+                Ronald Fischer was sort of a race realist and a dick, but a genius within statistics. Watson, from my
+                limited understanding of him, seems to be like Ronald Fischer, but just worse in every way. He also just
+                seemed to be particularly petty especially against other women within biology e.g Rosalind Franklin.
+              </p>
+
+              <div class="quote-block">
+                <p>As an author, Watson wrote two books at Harvard that were and remain best sellers. The textbook
+                  Molecular Biology of the Gene, published in 1965 (7th edition, 2020), changed the nature of science
+                  textbooks, and its style was widely emulated. </p>
+                <p style="color: red"> In this textbook Watson got the central dogma wrong, presenting it in a
+                  profoundly misleading way. (source: Matthew Cobb, 2024).</p>
+              </div>
+              The <a href="https://www.asimov.press/p/crick"> article Pachter cites </a> is really well written! Reading
+              it was fun and I learned a little bit of biology
+              that might just stick. Anyway, Cobb states that Watson misinterpreted Crick’s idea (“the central dogma”).
+              That original idea was that the usual chain one sees in biology, DNA -> RNA -> Proteins, can’t be observed
+              strictly in reverse. However, Crick doesn’t discard the fact that, for example, DNA can’t be replicated
+              from RNA. Indeed, this was in fact shown in the <a href="https://www.nature.com/articles/2261198a0">
+                lab</a>.
+              <div class="quote-block">
+                <p> But on pages 1209 and 1211 of this issue of Nature, Baltimore and Mizutani and Temin claim
+                  independently that RNA tumour viruses contain an enzyme which uses the viral RNA as a template for the
+                  synthesis of DNA and thus reverses the direction of genetic transcription.
+                </p>
+              </div>
+              <p> Now, I’m not too sure of Pachterß's point. I can’t find a copy of the original 1965 book since later
+                editions have presumably been updated accordingly. However, I did easily find a copy of the seventh
+                edition, which ßcontains theß following sentence on page 41. </p>
+              <div class="quote-block">
+                As we have seen, according to the “central dogma” information flows from DNA to
+                RNA to protein.
+              </div>
+
+              <p> This sentence is out of context since this is what was written on page 33. </p>
+
+              <div class="quote-block">
+                <p> In 1956 Francis Crick referred to this pathway for the flow of genetic information as the central
+                  dogma: </p>
+                <img src="./pics/mollecular_bio_diagram.png" alt="" width="700" height="100" />
+                <p> The arrow between DNA and RNA indicates that RNA synthesis (called transcription) is directed by a
+                  DNA template. Corre- spondingly, the synthesis of proteins (called translation) is directed by an RNA
+                  template. Most importantly, the last two arrows were presented as uni- directional; that is, RNA
+                  sequences are never determined by protein tem- plates nor was DNA then imagined ever to be made on RNA
+                  templates.
+
                   <br><br>
-                  “These are moribund cripples,” one doctor asserted. “Who do you think they are?”
-                  <br><br> “They are the best of men,” Guttmann replied.  </p>
+
+                  However, as we will see in Chapter 12, RNA chains sometimes do act as templates for DNA chains of
+                  complementary sequence. Such reversals of the normal flow of information are very rare events compared
+                  with the enormous number of RNA molecules made on DNA templates.
+                </p>
+              </div>
+
+
+              <p> I think the authors of the seventh edition essentially pulled that diagram from <a
+                  href="https://wellcomecollection.org/works/xmscu3g4/items"> Crick’s original
+                  thought process </a> (found through Cobb’s article), which is pretty interesting.
+                <br>
+                <img style="float:auto" src="./pics/crick_central_dogma.png" alt="" width="600" height="500" />
+              </p>
+
+              <p> From everything I’ve read so far, it seems like a lot of people misinterpreted what Crick’s intentions
+                were, so I don’t think this is that big of a deal. It seems like the book has had a net-positive impact
+                on people and especially due to all of the lovely people who continually created newer and better
+                editions of it.
+              </p>
+
+              <div class="quote-block">
+                <p> The Double Helix (1968) was a sensation at the time of publication. Watson’s
+                  account of the events that resulted in the elucidation of the structure of DNA remains controversial,
+                  but still widely read.</p>
+
+                <p style="color:red"> Prior to the publication of The Double Helix, Francis Crick wrote that “If you
+                  publish your book now, in
+                  the teeth of my opposition, history will condemn you”. Watson published the book anyway (source:
+                  letter
+                  by Francis Crick, 1967) .</p>
+
+
+              </div>
+
+              <p> This is another point, which, on the surface, seems like a straightforward dunk, but actually has a
+                much more interesting story. The point Pachter is implicitly making is completely true: Watson’s
+                account of the discovery of the structure of DNA in the original 1968 autobiography and Crick very
+                much condemned him at the time. The Double Helix is quite inaccurate and is a very personal account of
+                every event and of other people’s involvement.
+
+                <br><br>
+
+                The canonical example everyone refers to is Rosalind Franklin who is consistently referred to as
+                <a href="https://dnalc.cshl.edu/view/15692-Rosalind-Franklin.html"> “Rosy” </a>. There were tensions
+                between her and Maurice Wilkins (another person who shared the Nobel with
+                Watson & Crick), but Watson describes Rosalind as being too assertive as a woman and blames her lack
+                of femininity for the issues between her and Wilkins.
+
+                <br><br>
+
+                The following excerpt is from page 13 of Gunther Sten’s 1980 Norton Critical Edition of The Double
+                Helix, which, alongside the original book, contains a lot of material that contrasts with Watson’s
+                view.
+              </p>
+
+              <div class="quote-block">
+                I suspect that in the beginning Maurice hoped that Rosy would calm down. Yet mere inspection suggested
+                that she would not easily bend. By choice she did not emphasize her feminine qualities. Though her
+                features were strong, she was not unattractive and might have been quite stunning had she taken even a
+                mild interest in clothes.
+
+                <br><br>
+
+                [...]
+
+                <br><br>
+
+                There was never lipstick to contrast with her straight black hair, while at the age of thirty-one her
+                dresses showed all the imagination of English blue-stocking adolescents.
+
+                <br><br>
+
+                So it was quite easy to imagine her the product of an unsatisfied mother who unduly stressed the
+                desirability of professional careers that could save bright girls from marriages to dull men. But this
+                was not the case.
+
+              </div>
+
+              To end this off, here’s another Pachter post about things Watson has said. In particular:
+              <br> <br>
+              <div class="quote-block">
+                “[Rosalind Franklin] was a loser”
+              </div>
+
+              I was going to read more about Ronald Fischer’s life since I have a strong feeling that there’s something
+              to learn from comparing him and Watson, but I’ll save that for another day.
+
+
+
+            </div>
+            <div class="thoughts">
+              <h2>
+                <a href="https://www.berkeleyside.org/2010/04/21/berkeleyite-or-berkeleyan"> Berkeleyite or Berkeleyan?
+                </a>
+                <time> Dec 6, 2025</time>
+              </h2>
+              <div class="quote-block">
+                Here’s a problem that Berkeleyside wrestles with frequently. Should we refer to residents of Berkeley as
+                Berkeleyites or Berkeleyans?
+
+                To my ear, Berkeleyites sounds better. It gets 25,000 results on Google. Someone has entered it into the
+                City Dictionary. Berkeleyan, on the other hand, gets 110,000 Google hits. Looks like a done deal,
+                doesn’t it? But hang on. A lot of those Berkeleyan hits are because it’s the accepted adjective for
+                things relating to Bishop Berkeley (photo left) or his system of philosophical idealism.
+
+                Tell us readers. What do you think? Of course, we could cut the Gordian knot and just agree to call
+                everyone Berkeleysiders.
+
+              </div>
+
+              I think Berkeleyan makes the most sense here since due to Bishop Berkeley’s idea of <a
+                href="https://academic.oup.com/book/2713/chapter-abstract/143184609?redirectedFrom=fulltext"> Berkeleyan
+                Idealism</a>,
+              Another spelling seems to be with an “i” and thus <a
+                href="https://www.merriam-webster.com/dictionary/Berkeleian"> Berkelian </a>, which feels a bit cooler.
+              I get the same
+              vibes from “Bayesian” as “Berkelyan”.
+
+              <br><br>
+
+              Oddly enough, Urban Dictionary only has a record from 2011 of Berkeleyite (Berkeleyside article was
+              published April 2011). “Berkelyite” is pretty lame, but “Berkelite” looks/sounds a bit better.
+
+              <br><br>
+
+              <img src="./pics/berkeleyan.png" alt="" width="700" height="300" />
+
+              <br><br>
+
+              <img src="./pics/berkeleyite.png" alt="" width="550" height="300" />
+
+
+
+            </div>
+            <div class="thoughts">
+              <h2>
+                <a href="https://tijanaminic1.github.io/#">
+                  Grad Student's Thoughts: My First PhD Semester - The Good, the Bad, and the Ugly
+                </a>
+              </h2>
+              <time>Dec 3, 2025</time>
+
+              <div class="quote-block">
+                The biggest shift I felt right away was the sudden, exponential spike in imposter syndrome. UW did
+                something clever during orientation for the first-year PhD cohort: the very first slide they showed
+                simply read “YOU BELONG HERE.” All caps.
+              </div>
+
+              Shachar Kariv (economist at Berkeley), during the first lecture of his economic theory class, constantly
+              reminded the graduate students of this fact. I internally scoffed (since I was/am a “smart”
+              undergraduate) at first, and all the other times he would find little ways to remind his audience they
+              were enough.
+
+              <br />
+              <br />
+
+              Anyway, right before our midterm and right after, he emphasized this to each and every person in that
+              class and I’m glad he did. I didn’t score as well as I had wanted (earned a B), but his reassurance that
+              we all deserved to be there did put a smile on my face when we received our grades for that midterm a
+              week later.
+              <br /><br />
+              <div class="quote-block">
+                What struck me was how my mind reacted to all of this. You’d think I would remind myself, “Hey, I
+                started a PhD with twelve publications, which is a wild number for an undergrad.” But no. Instead, the
+                thought that greeted me on day one was:
+
+                <br /><br />
+
+                “Alright. You’ve managed to weasel your way through so far. Now’s the moment they finally uncover that
+                you’re a fraud.”
+              </div>
+
+              This weirdly reminds me of the pledge that fellows of the
+              <a href="https://en.wikipedia.org/wiki/Harvard_Society_of_Fellows"> Harvard Society of Fellows </a>
+              take: <br />
+              <br />
+              <div class="quote-block">
+                You will seek not a near but a distant objective, and you will not be satisfied with what you may have
+                done. All that you may achieve or discover you will regard as a fragment of a larger pattern of the
+                truth which from the separate approaches every true scholar is striving to descry.
+              </div>
+
+              Taking extreme pride in all of your work is almost the definition of hubris. Taking too little is a
+              toxic humility.
+
+              <br />
+              <br />
+              <div class="quote-block">
+                The point is this: I don’t think anyone is fully aware of the complexity of who they are until they’re
+                pushed to face themselves. A high-pressure environment forces those parts to the surface — all of them
+                — and you finally see what’s been hiding underneath.
+              </div>
+
+              This is a really good takeaway.
+
+              <br />
+              <br />
+
+              This is a quote from her advisor.
+
+              <div class="quote-block">
+                “If the circle is the same every time, that’s no progress. But look closely at the circle. Is it a
+                little rounder? A little more defined each time you move through it? That might be what progress looks
+                like.”
+              </div>
+
+              It reminds me of an
+              <a href="https://www.youtube.com/watch?v=oDav-JfidL0&pp=ygUXREMgaW5qdXN0aWNlIGJhdG1hbiBhZCA%3D">
+                announcer trailer</a>
+              for the DC Injustice 2 game. <br />
+              <br />
+              I’m kind of lazy, so here are two other excerpts that are quite interesting.
+              <br />
+              <br />
+              <div class="quote-block">
+                “You are doing something incredibly hard. Treat yourself (dis)proportionally.”
+                <br />
+                <br />
+                Rest isn’t indulgent, it’s preventative maintenance. Because if your priority is the work, then every
+                other potential stressor - physical discomfort, exhaustion, poor sleep, hunger, isolation — needs to
+                be softened, minimized, or removed.
               </div>
             </div>
 
-           
-
-          </aside>
-
-
-
-
-
-
-
-
-
-            <div class="media-feed">
-
-              <div class = "thoughts">
-            <h2><a href = "https://tijanaminic1.github.io/#">  Grad Student's Thoughts: My First PhD Semester - The Good, the Bad, and the Ugly </a> </h2>
-            <time>Dec 3, 2025</time>
-            
-           
-
-            <div class = "feed-entry"> 
-              The biggest shift I felt right away was the sudden, exponential spike in imposter syndrome. 
-              UW did something clever during orientation for the first-year PhD cohort: 
-              the very first slide they showed simply read “YOU BELONG HERE.” All caps.
-
-            </div>
-
-            Shachar Kariv (economist at Berkeley), during the first lecture of his economic theory class, 
-            constantly reminded the graduate students of this fact. 
-            I internally scoffed (since I was/am a “smart” undergraduate) at first, 
-            and all the other times he would find little ways to remind his audience they were enough.
-
-            <br> <br>
-
-            Anyway, right before our midterm and right after, he emphasized this to each and every person in that class 
-            and I’m glad he did. I didn’t score as well as I had wanted (earned a B), but his reassurance that 
-            we all deserved to be there did put a smile on my face when we received our grades for that midterm a week later.
-            <br><br>
-            <div class = "feed-entry"> 
-
-              What struck me was how my mind reacted to all of this. You’d think I would remind myself,
-              “Hey, I started a PhD with twelve publications, which is a wild number for an undergrad.” But no. 
-              Instead, the thought that greeted me on day one was:
-
-              <br><br>
-              
-
-              “Alright. You’ve managed to weasel your way through so far. Now’s the moment they finally uncover that you’re a fraud.”
-
-            </div>
-
-            This weirdly reminds me of the pledge that fellows of the <a href = "https://en.wikipedia.org/wiki/Harvard_Society_of_Fellows"> Harvard Society of Fellows </a>  take: 
-            <br> <br>
-            <div class = "feed-entry"> 
-              You will seek not a near but a distant objective, and you will not be satisfied with what you may have done. 
-              All that you may achieve or discover you will regard as a fragment of a larger pattern of the truth which 
-              from the separate approaches every true scholar is striving to descry.
-            </div>
-
-            Taking extreme pride in all of your work is almost the definition of hubris. Taking too little is a toxic humility. 
-            
-            <br> <br>
-            <div class = "feed-entry">
-               The point is this: I don’t think anyone is fully aware of the complexity of who they are 
-               until they’re pushed to face themselves. A high-pressure environment forces those parts to the surface
-                — all of them — and you finally see what’s been hiding underneath.
-            </div>
-
-            This is a really good takeaway. 
-
-            <br> <br>
-
-            This is a quote from her advisor. 
-
-            <div class = "feed-entry"> 
-              “If the circle is the same every time, that’s no progress. But look closely at the circle.
-               Is it a little rounder? A little more defined each time you move through it? 
-               That might be what progress looks like.”
-            </div>
-            
-            It reminds me of an <a href = "https://www.youtube.com/watch?v=oDav-JfidL0&pp=ygUXREMgaW5qdXN0aWNlIGJhdG1hbiBhZCA%3D"> announcer trailer</a> for the DC Injustice 2 game. <br> <br> 
-            I’m kind of lazy, so here are two other excerpts that are quite interesting. 
-            <br> <br> 
-            <div class = "feed-entry"> 
-              “You are doing something incredibly hard. Treat yourself (dis)proportionally.”
-              <br> <br> 
-              Rest isn’t indulgent, it’s preventative maintenance. Because if your priority is the work,
-               then every other potential stressor - physical discomfort, exhaustion, poor sleep, hunger, 
-               isolation — needs to be softened, minimized, or removed.
-
-            </div>
-
-
-
-           </div>
-
-
-            <div class = "thoughts">
-            <h2> <a href="https://statmodeling.stat.columbia.edu/2025/11/30/sermet-pekins-open-source-project-that-discovers-blogs-through-recursive-network-exploration/"> Open Source Project that Discovers Blogs! </a></h2>
-            <time>Dec 2, 2025</time>
-            <div class="feed-entry">
-              <p class="source">Source: <a href = "https://statmodeling.stat.columbia.edu/" > Statistical Modeling, Causal Inference, and Social Science </a></p>
-              Sermet Pekin writes:
-
-              I built an open-source project that discovers blogs through recursive network exploration–basically PageRank for the blogosphere. Your blogroll was the main seed source.
-              <br><br>
-              It recursively discovers new blogs by following citations and parsing RSS feeds, mapping out how blogs link to each other. Starting from a curated seed list (I used your blogroll recommendations), it can scale to hundreds or thousands of blogs depending on exploration depth. It supports different exploration strategies—breadth-first to explore widely across communities, depth-first to dive deep into niches, or mixed approaches.
-              <br><br>
-              I thought you might find it interesting:
-              – Helps surface quality blogs without relying on social media algorithms
-              – Your blogroll made excellent seed data—the blogs were well-curated and interconnected
-
-              Fun!
-            </div>
-
-            Link to the actual <a href = "https://sermetpekin.github.io/rss-discovery-engine/"> project </a>. 
-           </div>
             <div class="thoughts">
-            <h2> <a href="https://laweconcenter.org/resources/free-riding-in-mobile-ecosystems/"> Free Riding in Mobile Ecosystems </a></h2>
-            <time>Dec 2, 2025</time>
+              <h2>
+                <a
+                  href="https://statmodeling.stat.columbia.edu/2025/11/30/sermet-pekins-open-source-project-that-discovers-blogs-through-recursive-network-exploration/">
+                  Open Source Project that Discovers Blogs!
+                </a>
+              </h2>
+              <time>Dec 2, 2025</time>
+              <div class="quote-block">
+                <p class="source">
+                  Source:
+                  <a href="https://statmodeling.stat.columbia.edu/">
+                    Statistical Modeling, Causal Inference, and Social Science
+                  </a>
+                </p>
+                Sermet Pekin writes: I built an open-source project that discovers blogs through recursive network
+                exploration–basically PageRank for the blogosphere. Your blogroll was the main seed source.
+                <br /><br />
+                It recursively discovers new blogs by following citations and parsing RSS feeds, mapping out how blogs
+                link to each other. Starting from a curated seed list (I used your blogroll recommendations), it can
+                scale to hundreds or thousands of blogs depending on exploration depth. It supports different
+                exploration strategies—breadth-first to explore widely across communities, depth-first to dive deep
+                into niches, or mixed approaches.
+                <br /><br />
+                I thought you might find it interesting: – Helps surface quality blogs without relying on social media
+                algorithms – Your blogroll made excellent seed data—the blogs were well-curated and interconnected
+                Fun!
+              </div>
 
-           
-            <p> This article is from the International Center for Law & Economics and
-              I don't really pay attention to antitrust stuff, but this article seemed pretty interesting. 
-              The subject of the article is the European Union's Digital Markets Act (DMA, 2023), 
-              which forces "gatekeepers"-think Apple and Google-to allow for alternative in-app payment processing and app stores on their mobile operating systems.
-              Here's an  <a href = "https://techcrunch.com/2025/03/13/move-over-apple-meet-the-alternative-app-stores-coming-to-the-eu/">  article </a> with some examples of alternative app stores that are allowed in the EU 
-            <br><br>
-          
-          </p>
-            
-            <div class="feed-entry">
-              <p class="source">Source: Brian Albrecht (Chief Economist) & Dirk Auer (Director of Competition Policy) </p>
-                The EU’s Digital Markets Act (DMA) and similar regulations around the world require designated 
-                “gatekeepers” to open their mobile operating systems to third-party app stores and sideloading.
-                They also typically include requirements that developers be allowed to 
-                use alternative in-app payment systems and to “steer” users toward purchases outside the app store.             
+              Link to the actual <a href="https://sermetpekin.github.io/rss-discovery-engine/"> project </a>.
             </div>
+            <div class="thoughts">
+              <h2>
+                <a href="https://laweconcenter.org/resources/free-riding-in-mobile-ecosystems/">
+                  Free Riding in Mobile Ecosystems
+                </a>
+              </h2>
+              <time>Dec 2, 2025</time>
 
-            The thesis of the article is that one can't maximize both competition among third-party app stores and payment processors. 
-            Since all of these app stores would have to draw their revenue from somewhere and would be forced to follow Apple's example of charging a commission on in-app sales and banning apps that didn't comply.
-            A good example of this is Apple banning <a href = "https://www.reddit.com/r/Games/comments/1knw4jq/fortnite_removed_from_app_store_entirely_after/" > Fortnite </a> for bypassing their 30% commission on in-app purchases.          
-            <br><br> 
-            Now, if one forces app stores to allow developers to contract alternative payment processors (think PayPal or Venmo) then 
-            developers would be able to keep more of their revenue and free ride off of the investments of all of those alternative app stores. 
-            Additionally, these alternative app stores would themselves be relying on OS-level infrastructure (discovery, security, etc.) 
-            and be free riding off of Apple's investments. This would lead to underinvestment in what makes the Apple app store work 
-            reasonably well in the first place e.g fraud protection, curation, advertising, etc.                  
-            <br><br>
+              <p>
+                This article is from the International Center for Law & Economics and I don't really pay attention to
+                antitrust stuff, but this article seemed pretty interesting. The subject of the article is the
+                European Union's Digital Markets Act (DMA, 2023), which forces "gatekeepers"-think Apple and Google-to
+                allow for alternative in-app payment processing and app stores on their mobile operating systems.
+                Here's an
+                <a
+                  href="https://techcrunch.com/2025/03/13/move-over-apple-meet-the-alternative-app-stores-coming-to-the-eu/">
+                  article
+                </a>
+                with some examples of alternative app stores that are allowed in the EU <br /><br />
+              </p>
 
-            <div class="feed-entry">
-              <p class="source">Source: Brian Albrecht (Chief Economist) & Dirk Auer (Director of Competition Policy) </p>
-              Alternative payments and steering compound the problem. 
-              Developers can use the store’s discovery and curation infrastructure to acquire users, then route purchases through lower-cost payment channels. 
-              The store still bears the cost of matching users and developers but loses the revenue that justified that investment.
+              <div class="quote-block">
+                <p class="source">
+                  Source: Brian Albrecht (Chief Economist) & Dirk Auer (Director of Competition Policy)
+                </p>
+                The EU’s Digital Markets Act (DMA) and similar regulations around the world require designated
+                “gatekeepers” to open their mobile operating systems to third-party app stores and sideloading. They
+                also typically include requirements that developers be allowed to use alternative in-app payment
+                systems and to “steer” users toward purchases outside the app store.
+              </div>
 
-            </div>
+              The thesis of the article is that one can't maximize both competition among third-party app stores and
+              payment processors. Since all of these app stores would have to draw their revenue from somewhere and
+              would be forced to follow Apple's example of charging a commission on in-app sales and banning apps that
+              didn't comply. A good example of this is Apple banning
+              <a href="https://www.reddit.com/r/Games/comments/1knw4jq/fortnite_removed_from_app_store_entirely_after/">
+                Fortnite
+              </a>
+              for bypassing their 30% commission on in-app purchases. <br /><br />
+              Now, if one forces app stores to allow developers to contract alternative payment processors (think
+              PayPal or Venmo) then developers would be able to keep more of their revenue and free ride off of the
+              investments of all of those alternative app stores. Additionally, these alternative app stores would
+              themselves be relying on OS-level infrastructure (discovery, security, etc.) and be free riding off of
+              Apple's investments. This would lead to underinvestment in what makes the Apple app store work
+              reasonably well in the first place e.g fraud protection, curation, advertising, etc.
+              <br /><br />
 
-            Or, it would lead to Apple increasing costs for developers! 
+              <div class="quote-block">
+                <p class="source">
+                  Source: Brian Albrecht (Chief Economist) & Dirk Auer (Director of Competition Policy)
+                </p>
+                Alternative payments and steering compound the problem. Developers can use the store’s discovery and
+                curation infrastructure to acquire users, then route purchases through lower-cost payment channels.
+                The store still bears the cost of matching users and developers but loses the revenue that justified
+                that investment.
+              </div>
 
-              <div class="feed-entry">
-              <p class="source">Source: <a href = "https://developer.apple.com/support/core-technology-fee/"> Apple </a> </p>
-              Developers operating under the Alternative Terms Addendum for Apps in the EU have the option to
-               distribute their iOS and iPadOS apps 
-              in the EU via the App Store, Web Distribution, and/or alternative app marketplaces. 
-              They can also use alternative payment processors in their apps in the EU on the App Store
-               across Apple operating systems. The CTF only applies to apps downloaded by EU users on devices
+              Or, it would lead to Apple increasing costs for developers!
+
+              <div class="quote-block">
+                <p class="source">
+                  Source: <a href="https://developer.apple.com/support/core-technology-fee/"> Apple </a>
+                </p>
+                Developers operating under the Alternative Terms Addendum for Apps in the EU have the option to
+                distribute their iOS and iPadOS apps in the EU via the App Store, Web Distribution, and/or alternative
+                app marketplaces. They can also use alternative payment processors in their apps in the EU on the App
+                Store across Apple operating systems. The CTF only applies to apps downloaded by EU users on devices
                 running minimum of iOS 17.4 and iPadOS 18.
 
-                <br><br>
+                <br /><br />
                 [...]
-                <br><br>
+                <br /><br />
 
-                Fee for each first annual install over one million. 
-                Developers pay a CTF of €0.50 for each first annual install over one million in the past 12 months.
+                Fee for each first annual install over one million. Developers pay a CTF of €0.50 for each first
+                annual install over one million in the past 12 months.
+              </div>
+              I feel convinced that the DMA doesn't make too much sense, since it really just makes it harder for
+              companies to provide/maintain the infrastructure needed for app developers to flourish.
             </div>
-            I feel convinced that the DMA doesn't make too much sense, since it
-            really just makes it harder for companies to provide/maintain the infrastructure needed for app developers to flourish. 
-
-
-            
-            
-            </div>
-
-             
-
-
-
-
-            
-
-            
-             
 
             <div class="thoughts">
-               <h2> <a href="https://www.aeaweb.org/articles?id=10.1257/jel.20211571"> Game Theory and the First World War </a></h2>
-            <time>Dec 2, 2025</time>
-            <p> Not completely sure where I found out about this article. It probably was from Marginal Revolution. 
-              Regardless, here's an excerpt that gave me a bit more insight on the art of game theoretic modeling.   </p>
-            
-            <div class="feed-entry">
-              <p class="source">Source: Journal of Economic Literature, Roger Myerson </p>
-              One of the triumphs of Fearon’s approach is his demonstration that a preventive war
-              by a currently dominant nation against a rising nation, such as Germany contemplated
-            against Russia in 1914, can be understood in
-            terms of moral-hazard commitment problems in a dynamic game. <br> <br> [...] <br> <br> 
-            The key to this analysis is that the rising nation 
-            cannot credibly commit itself now to refrain from using its ability to threaten war in the future 
-            after power has shifted in its favor, but the 
-            currently dominant nation could prevent this shift of power by launching a costly war now. 
-              <br><br>
-            </div>
-            If I'm being honest, this doesn't offer too much insight into the Great war as it is by itself. 
-            The excerpt is just a good example of game theory and its language being used to convey one plausible explanation for conflict. 
-            Myerson does of course mention this a bit later. 
+              <h2>
+                <a href="https://www.aeaweb.org/articles?id=10.1257/jel.20211571">
+                  Game Theory and the First World War
+                </a>
+              </h2>
+              <time>Dec 2, 2025</time>
+              <p>
+                Not completely sure where I found out about this article. It probably was from Marginal Revolution.
+                Regardless, here's an excerpt that gave me a bit more insight on the art of game theoretic modeling.
+              </p>
 
-            <div class="feed-entry">
-              <p class="source">Source: Journal of Economic Literature, Roger Myerson </p>
-              As Wolford rightly argues, we can gain important insights into the problems of war 
-              when we try to explain leaders’ choices as rational decisions in terms of natural human values. 
-              But what would happen if we tried to rationalize a surprising decision that was actually a mistake? 
-              The surprising move could be rationalized in a Bayesian game by hypothesizing that 
-              the decision maker has an unusual type with preferences or beliefs that would induce such behavior
-              <br> <br>
-              [...]
-              <br><br>
-              Thus, Germany’s surprising invasion of Belgium in 1914 could cause people in Britain to infer that Germany had 
-              aggressive expansionist leadership, while people in Germany might consider such beliefs to be unjustified British prejudice. 
-            </div>
-            I'm not super sure, but the issue of decision-making under a misspecified model is, at least theoretically, 
-            explored in the paper <a href = "https://drive.google.com/file/d/1wopk4Kp6NzVaCAQ7TxL7mb88XkJBqShY/view"  > Making Decisions under Model Misspecification </a>. 
+              <div class="quote-block">
+                <p class="source">Source: Journal of Economic Literature, Roger Myerson</p>
+                One of the triumphs of Fearon’s approach is his demonstration that a preventive war by a currently
+                dominant nation against a rising nation, such as Germany contemplated against Russia in 1914, can be
+                understood in terms of moral-hazard commitment problems in a dynamic game.
+                <br />
+                <br />
+                [...] <br />
+                <br />
+                The key to this analysis is that the rising nation cannot credibly commit itself now to refrain from
+                using its ability to threaten war in the future after power has shifted in its favor, but the
+                currently dominant nation could prevent this shift of power by launching a costly war now.
+                <br /><br />
+              </div>
+              If I'm being honest, this doesn't offer too much insight into the Great war as it is by itself. The
+              excerpt is just a good example of game theory and its language being used to convey one plausible
+              explanation for conflict. Myerson does of course mention this a bit later.
 
-
-            </div>
-
-           
-
-            <div class="thoughts"> 
-              <h2> <a href="https://eloise-likes-making-things.com/"> ELOISE LIKES MAKING THINGS </a></h2>
-            <time>November 30, 2025</time>
-            <p> This person's website is pretty interesting. I found out about it from this <a href = "https://ratorthodox.substack.com/p/branguss-10-rules-for-sleeping-with" > article about sex</a>. 
-              Her <a href = "https://x.com/dundereloise"> twitter account</a>  is linked in the third footnote. Below are some excerpts from the writing section that I thought were cool.  </p>
-            
-            <div class="feed-entry">
-              <p class="source">Source: <a href = "https://eloise-likes-making-things.com/writing/appreciation.html" >'Appreciation' </a> </p>
-              When walking outside I sometimes get a sense of appreciation for how paradise-like my surroundings are.
-              <br><br>
-              I walk to the park near my home. A park! How absurdly utopian it is that 
-              we’ve fenced off an area that’s sole purpose is just to be nice.  
-              In the park there are pigeons waddling around fat on French fries, because food 
-              is so abundant that people are sometimes careless with it. 
-              (And French fries exist! Transcendent deliciousness beyond a cave man’s wildest dreams.)
+              <div class="quote-block">
+                <p class="source">Source: Journal of Economic Literature, Roger Myerson</p>
+                As Wolford rightly argues, we can gain important insights into the problems of war when we try to
+                explain leaders’ choices as rational decisions in terms of natural human values. But what would happen
+                if we tried to rationalize a surprising decision that was actually a mistake? The surprising move
+                could be rationalized in a Bayesian game by hypothesizing that the decision maker has an unusual type
+                with preferences or beliefs that would induce such behavior
+                <br />
+                <br />
+                [...]
+                <br /><br />
+                Thus, Germany’s surprising invasion of Belgium in 1914 could cause people in Britain to infer that
+                Germany had aggressive expansionist leadership, while people in Germany might consider such beliefs to
+                be unjustified British prejudice.
+              </div>
+              I'm not super sure, but the issue of decision-making under a misspecified model is, at least
+              theoretically, explored in the paper
+              <a href="https://drive.google.com/file/d/1wopk4Kp6NzVaCAQ7TxL7mb88XkJBqShY/view">
+                Making Decisions under Model Misspecification </a>.
             </div>
 
-            <div class="feed-entry">
-              <p class="source">Source: <a href = "https://eloise-likes-making-things.com/writing/if-i-were-a-billionaire.html" >If I were a billionaire </a> </p>
-              If I were a billionaire I would hire someone well-acquainted with my tastes whose job it is 
-              to print out tweets I'd enjoy and hand them to me on paper, 
-              <br> so I can't see bad comments and can't get sucked into browsing twitter.
-           </div>
-            </div>
-
-
-            
-
-           
-      
             <div class="thoughts">
-               <h2> <a href="https://www.nytimes.com/athletic/6840475/2025/11/28/california-bears-football-berkeley-politics"> The University of California knows its stereotypes. How does college football fit in?</a></h2>
-            <time>November 28, 2025</time>
-            <p> This article was pretty interesting. I don't follow football (certainly not college football), but how our (Cal's) team changes  
-              <a href = "https://www.reddit.com/r/berkeley/comments/1p537tn/cal_fires_coach_justin_wilcox_after_lopsided_loss/"> after the devastating loss at the big game </a> is sure to be interesting.
-              Putting that aside, this quote is pretty funny without sufficient context. </p>
-            
-            <div class="feed-entry">
-              <p class="source">Source: The Athletic (NYT) </p>
-              “I think that’s very much the ethos now: Everybody has to do their part to save Cal football,” Kranz said. 
-              “We have to turn to communism to save Cal football, not out of ideology, but out of desperation. 
-              A lot of this effort is about trying to preserve something that is a unifying sense of community
-               for the campus when we don’t have a ton of those things here.”
- 
+              <h2><a href="https://eloise-likes-making-things.com/"> ELOISE LIKES MAKING THINGS </a></h2>
+              <time>November 30, 2025</time>
+              <p>
+                This person's website is pretty interesting. I found out about it from this
+                <a href="https://ratorthodox.substack.com/p/branguss-10-rules-for-sleeping-with"> article about sex</a>.
+                Her <a href="https://x.com/dundereloise"> twitter account</a> is linked in the third footnote.
+                Below are some excerpts from the writing section that I thought were cool.
+              </p>
+
+              <div class="quote-block">
+                <p class="source">
+                  Source:
+                  <a href="https://eloise-likes-making-things.com/writing/appreciation.html">'Appreciation' </a>
+                </p>
+                When walking outside I sometimes get a sense of appreciation for how paradise-like my surroundings
+                are.
+                <br /><br />
+                I walk to the park near my home. A park! How absurdly utopian it is that we’ve fenced off an area
+                that’s sole purpose is just to be nice. In the park there are pigeons waddling around fat on French
+                fries, because food is so abundant that people are sometimes careless with it. (And French fries
+                exist! Transcendent deliciousness beyond a cave man’s wildest dreams.)
+              </div>
+
+              <div class="quote-block">
+                <p class="source">
+                  Source:
+                  <a href="https://eloise-likes-making-things.com/writing/if-i-were-a-billionaire.html">If I were a
+                    billionaire
+                  </a>
+                </p>
+                If I were a billionaire I would hire someone well-acquainted with my tastes whose job it is to print
+                out tweets I'd enjoy and hand them to me on paper,
+                <br />
+                so I can't see bad comments and can't get sucked into browsing twitter.
+              </div>
             </div>
-          </div>
-            
-          <div class = "thoughts">
-            <h2> <a href="https://www.apple.com/newsroom/2025/11/mapping-the-future-with-3d-printed-titanium-apple-watch-cases/"> Mapping the future with 3D-printed titanium Apple Watch cases </a></h2>
-            <time>November 25, 2025</time>
-            <div class="feed-entry">
-              <p class="source">Source: Apple</p>
-              This year, all Apple Watch Ultra 3 and titanium Apple Watch Series 11 cases are 3D-printed with 100 percent 
-              recycled aerospace-grade titanium powder, an achievement not previously considered possible at scale. 
+
+            <div class="thoughts">
+              <h2>
+                <a
+                  href="https://www.nytimes.com/athletic/6840475/2025/11/28/california-bears-football-berkeley-politics">
+                  The University of California knows its stereotypes. How does college football fit in?</a>
+              </h2>
+              <time>November 28, 2025</time>
+              <p>
+                This article was pretty interesting. I don't follow football (certainly not college football), but how
+                our (Cal's) team changes
+                <a
+                  href="https://www.reddit.com/r/berkeley/comments/1p537tn/cal_fires_coach_justin_wilcox_after_lopsided_loss/">
+                  after the devastating loss at the big game
+                </a>
+                is sure to be interesting. Putting that aside, this quote is pretty funny without sufficient context.
+              </p>
+
+              <div class="quote-block">
+                <p class="source">Source: The Athletic (NYT)</p>
+                “I think that’s very much the ethos now: Everybody has to do their part to save Cal football,” Kranz
+                said. “We have to turn to communism to save Cal football, not out of ideology, but out of desperation.
+                A lot of this effort is about trying to preserve something that is a unifying sense of community for
+                the campus when we don’t have a ton of those things here.”
+              </div>
             </div>
-          </div>
 
-            
-
-          
-
-            
-            
+            <div class="thoughts">
+              <h2>
+                <a
+                  href="https://www.apple.com/newsroom/2025/11/mapping-the-future-with-3d-printed-titanium-apple-watch-cases/">
+                  Mapping the future with 3D-printed titanium Apple Watch cases
+                </a>
+              </h2>
+              <time>November 25, 2025</time>
+              <div class="quote-block">
+                <p class="source">Source: Apple</p>
+                This year, all Apple Watch Ultra 3 and titanium Apple Watch Series 11 cases are 3D-printed with 100
+                percent recycled aerospace-grade titanium powder, an achievement not previously considered possible at
+                scale.
+              </div>
+            </div>
           </div>
           <!-- Current -->
-         
-          
         </div>
-        
       </section>
     </main>
   </div>
 </body>
+
 </html>

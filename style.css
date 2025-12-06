@@ -140,11 +140,20 @@ body.fullWidth {
 
 .thoughts {
     border-bottom: 4px solid var(--divider-line-color);
+    position: relative; 
+    padding-right: 48px; 
 }
+
+
+
+
+
+
 
   
 
-.feed-entry {
+.quote-block
+ {
   border-left: 7px solid var(--vertical-bar-color);
   padding-left: 15px;
   margin-bottom: 30px;
@@ -160,7 +169,8 @@ body.fullWidth {
   margin-bottom: 10px;
 }
 
-.feed-entry .reading-item .detail {
+.quote-block
+ .reading-item .detail {
   font-style: italic;
   font-size: 0.9rem;
   color: var(--teaser-color);
@@ -259,3 +269,4 @@ time {
   margin-bottom: 5px;
   font-weight: normal;
 }
+
