@@ -1,12 +1,12 @@
 :root { 
   --vertical-bar-color: #6200ee;  
   --divider-line-color: #6a8291df;
-  --background-color: #121212; 
-  --text-color: #e0e0e0;       
-  --link-color: #90caf9;      
+  --background-color: #000000; 
+  --text-color: #F0F0F0;       
+  --link-color: #77c2fb;      
   --card-bg-color: #2c2c2c;  
   --teaser-color: #aaaaaa;  
-  --time-color: #374bba;
+  --time-color: #283ddb;
 
 
 }
