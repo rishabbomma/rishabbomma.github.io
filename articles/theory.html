@@ -1,90 +1,106 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Bomma | Misc</title>
   <link rel="stylesheet" href="../style.css" />
-  <link rel="shortcut icon" type="image/png" href="/pics/web_icon.png">
+  <link rel="shortcut icon" type="image/png" href="/pics/web_icon.png" />
 
   <script>
-window.MathJax = {
-  tex: {
-    macros: {
-      // Calligraphic
-      cP: "{\\mathcal{P}}",
-      cX: "{\\mathcal{X}}",
-      cR: "{\\mathcal{R}}",
-      cF: "{\\mathcal{F}}",
-      cA: "{\\mathcal{A}}",
-      cG: "{\\mathcal{G}}",
-      cD: "{\\mathcal{D}}",
-      cL: "{\\mathcal{L}}",
-      C:  "{\\mathcal{C}}",
+    window.MathJax = {
+      tex: {
+        inlineMath: [
+          ["$", "$"],
+          ["\\(", "\\)"],
+        ],
+        macros: {
+          // Calligraphic
+          cP: "{\\mathcal{P}}",
+          cX: "{\\mathcal{X}}",
+          cR: "{\\mathcal{R}}",
+          cF: "{\\mathcal{F}}",
+          cA: "{\\mathcal{A}}",
+          cG: "{\\mathcal{G}}",
+          cD: "{\\mathcal{D}}",
+          cL: "{\\mathcal{L}}",
+          C: "{\\mathcal{C}}",
 
-      // Blackboard bold
-      EE: "{\\mathbb{E}}",
-      PP: "{\\mathbb{P}}",
-      QQ: "{\\mathbb{Q}}",
-      RR: "{\\mathbb{R}}",
-      ZZ: "{\\mathbb{Z}}",
-      NN: "{\\mathbb{N}}",
+          // Blackboard bold
+          EE: "{\\mathbb{E}}",
+          PP: "{\\mathbb{P}}",
+          QQ: "{\\mathbb{Q}}",
+          RR: "{\\mathbb{R}}",
+          ZZ: "{\\mathbb{Z}}",
+          NN: "{\\mathbb{N}}",
 
-      // Operators / text
-      Orb:    "{\\textnormal{Orb}}",
-      indif:  "{\\textnormal{Indiff}}",
-      ch:     "{\\textnormal{C}}",
-      Low:    "{\\textnormal{L}}",
-      Up:     "{\\textnormal{U}}",
+          // Operators / text
+          Orb: "{\\textnormal{Orb}}",
+          indif: "{\\textnormal{Indiff}}",
+          ch: "{\\textnormal{C}}",
+          Low: "{\\textnormal{L}}",
+          Up: "{\\textnormal{U}}",
 
-      // Logic / sets
-      union:     "{\\bigcup}",
-      intersect: "{\\bigcap}",
-      RIGHT:     "{\\Longrightarrow}",
-      LEFT:      "{\\Longleftarrow}",
-      IFF:       "{\\Longleftrightarrow}",
-      es:        "{\\varnothing}",
+          // Logic / sets
+          union: "{\\bigcup}",
+          intersect: "{\\bigcap}",
+          RIGHT: "{\\Longrightarrow}",
+          LEFT: "{\\Longleftarrow}",
+          IFF: "{\\Longleftrightarrow}",
+          es: "{\\varnothing}",
 
-      // Relations
-      spref: "{\\succ}",
-      pref:  "{\\succeq}",
+          // Relations
+          spref: "{\\succ}",
+          pref: "{\\succeq}",
 
-      // Argument-taking macros
-      indicator: ["{\\mathbf{1}_{#1}}", 1],
-      norm: ["{\\left\\lVert #1 \\right\\rVert}", 1]
-    }
-  }
-};
-</script>
+          // Argument-taking macros
+          indicator: ["{\\mathbf{1}_{#1}}", 1],
+          norm: ["{\\left\\lVert #1 \\right\\rVert}", 1],
+        },
+      },
+    };
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-
   <style>
-  .theorem, .lemma, .definition, .corollary, .fact, .note {
-    border-left: 4px solid; 
-    padding: 0.75em 1em;
-    margin: 1em 0;
-    background-color: #5e2ba6; 
-    border-radius: 8px;  
-  }
+    .theorem,
+    .lemma,
+    .definition,
+    .corollary,
+    .fact,
+    .note {
+      border-left: 4px solid;
+      padding: 0.75em 1em;
+      margin: 1em 0;
+      background-color: #5e2ba6;
+      border-radius: 8px;
+    }
 
-  .theorem .header, .lemma .header, .definition .header, .corollary .header,
-  .fact .header, .note .header {
-    font-weight: bold;
-    margin-bottom: 0.3em;
-  }
+    .theorem .header,
+    .lemma .header,
+    .definition .header,
+    .corollary .header,
+    .fact .header,
+    .note .header {
+      font-weight: bold;
+      margin-bottom: 0.3em;
+    }
 
-  .theorem .body, .lemma .body, .definition .body, .corollary .body {
-    font-style: italic;
-  }
+    .theorem .body,
+    .lemma .body,
+    .definition .body,
+    .corollary .body {
+      font-style: italic;
+    }
 
-
-  .fact .body, .note .body {
-    font-style: normal;
-  }
-</style>
-
+    .fact .body,
+    .note .body {
+      font-style: normal;
+    }
+  </style>
 </head>
+
 <body>
   <div class="layout">
     <nav class="sidebar">
@@ -96,19 +112,79 @@ window.MathJax = {
     </nav>
 
     <main class="content">
+      <div class="thoughts">
+        <h2>A Simple Model</h2>
+        <time> Feb 28, 2026</time>
 
-      <div class = "theorem">
-        <div class = "header"> Theorem 1. (Stuff)
+        I was thinking about this while on a car ride to the post office. I was getting my first adult passport and my
+        sister asked me if we brought a necessary document. I, without looking since I felt sure about its presence,
+        said yes. We then went to the post office and everything went smoothly.
+
+        <br><br>
+
+        On the car ride there (~ $10$ min), I thought about a simple model. I had two actions: Nothing or Check. If I
+        did
+        Nothing when the document was in the car then I would lose 1 util (enormous). But if I did Check (i.e. check the
+        file) and the document wasn’t in the car, I would lose c utils.
+
+        <br><br>
+
+        If the document was present & I did Nothing, then I would gain $0$ utils. However, if the document wasn’t
+        present
+        and I did Check then I would receive $g$ utils (gratitude). In this model, it wouldn’t make sense to “randomize”
+        my actions since it’s not like this happens every day and I have a particular frequency of how often I do
+        Nothing.
+
+
+
+        <table style="border-collapse: collapse; margin: 1em auto; font-size: 1.1em;">
+          <caption style="margin-bottom: 0.6em; font-style: italic; color: #aaaaaa;">Payoff Matrix</caption>
+          <tr>
+            <th style="border-bottom: 1px solid; border-right: 1px solid; padding: 0.5em 1em;">Actions/States</th>
+            <th style="border-bottom: 1px solid; border-right: 1px solid; padding: 0.5em 1em;">$Present$</th>
+            <th style="border-bottom: 1px solid; padding: 0.5em 1em;">$Not$ $Present$</th>
+          </tr>
+          <tr>
+            <td style="border-right: 1px solid; padding: 0.5em 1em;"><strong>$N(othing)$</strong></td>
+            <td style="border-right: 1px solid; padding: 0.5em 1em;">$0$</td>
+            <td style="padding: 0.5em 1em;">$-1$</td>
+          </tr>
+          <tr>
+            <td style="border-right: 1px solid; padding: 0.5em 1em;"><strong>$Check$</strong></td>
+            <td style="border-right: 1px solid; padding: 0.5em 1em;">$-c$</td>
+            <td style="padding: 0.5em 1em;">$g$</td>
+          </tr>
+        </table>
+
+
+        Therefore, I prefer to Check if my belief (a probability $p \in [0,1]$) of the document actually being present
+        satisfies $p < \frac{g+1}{c+g+1}$. Remember, $c$ is the cost of me checking when the document is in fact
+          present, $1$ is the cost of that I forgot the document, and $g$ is the gratitude I receive if I did check and
+          see the document was missing. Intuitively, $c$ must be a lot smaller than $1$ e.g. $c=0.1$. If $g$ were set to
+          be $1$, this means that the magnitude of my happiness is the same as my potential distress. My model would
+          imply that I would need to have a high level of certainty ($>95\%$) to safely do Nothing.
+
+          <br><br>
+
+          Okay, so this is a pretty stupid model, but I was satisfied due to the
+          following observation. I felt so averse to considering a strategy where I randomized (setting a frequency
+          among multiple trials) between doing nothing or something. However, I had no issue with picking a
+          probability
+          to represent my belief about the presence of the document in the car. Isn’t that so cool? Within a model of
+          choice, the Bayesian and Frequentist philosophy towards what a probability is are very much present.
+
+
+          <figure>
+            <figcaption style="margin-bottom: 1em; font-style: italic; color: #aaaaaa;">Graph of Necessary Beliefs; top right box are reasonable costs and gratitudes; anything above large horizontal line or to the right of vertical line is unreasonable </figcaption>
+            <img src="./pics/simple_model_plot.png" width="600" height="400 " />
+          </figure>
+
+
+
 
       </div>
-
-      Hello, this is a theorem.
-
-      </div>
-
-
-
     </main>
   </div>
 </body>
+
 </html>
